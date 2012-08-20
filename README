@@ -1,0 +1,5 @@
+Simple scripts to launch gnome in a VNC session and give the user some hints on connecting. Designed to be used with TigerVNC (http://sourceforge.net/apps/mediawiki/tigervnc/index.php?title=Main_Page)
+
+To use, install somewhere and edit the constants in the top of start_vnc.rb
+
+"RANDPASS" should contain the path to an executable which emits a short random string to stdout to be used as a VNC password. It will be provided in a future version
